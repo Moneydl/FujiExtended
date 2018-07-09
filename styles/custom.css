@@ -1,0 +1,61 @@
+
+/* Toggle the menu */
+
+.M-ProfileAccess__dropDownContainer,
+.M-ProfileAccess__arrowContainer
+{
+    display: none;
+}
+.M-ProfileAccess__dropDownContainer.is-active,
+.M-ProfileAccess__arrowContainer.is-active
+{
+    display: block;
+}
+
+
+/* Page */
+.main-page__container
+{
+    min-height: 75vh;
+    margin-top:25px;
+}
+.main-page__container .A-Teaser-TeaserCard
+{
+    background: #f7f7f7;
+    width:100%;
+}
+
+/* profile menu */
+.M-NavigationActionItems .M-ProfileAccess__toggleLink
+{
+    border-right:1px solid transparent;
+}
+
+/* Tab */
+@media screen and (max-width:768px)
+{
+    .O-Header__bottomActionItems__mobile
+    {
+        padding-right: 5px;
+    }
+    .M-ProfileAccess__dropDownContainer
+    {
+        max-width:300px;
+    }
+    .M-ProfileAccess__arrowContainer
+    {
+        left:10px;
+    }
+    .main-page__container > .container
+    {
+        padding: 0;
+    }
+}
+/* Mobile */
+@media screen and (max-width:480px)
+{
+    .O-Header__bottomActionItems__mobile
+    {
+        padding-right: 5px;
+    }
+}
